@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home_navbar">
+
+    <fragment
+        android:id="@+id/home_navbar"
+        android:name="com.daffakhairi.travelapp.ui.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/baggage_navbar"
+        android:name="com.daffakhairi.travelapp.ui.BaggageFragment"
+        android:label="@string/title_baggage"
+        tools:layout="@layout/fragment_baggage" />
+
+    <fragment
+        android:id="@+id/ratings_navbar"
+        android:name="com.daffakhairi.travelapp.ui.RatingsFragment"
+        android:label="@string/title_ratings"
+        tools:layout="@layout/fragment_Ratings" />
+    <fragment
+        android:id="@+id/profile_navbar"
+        android:name="com.daffakhairi.travelapp.ui.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

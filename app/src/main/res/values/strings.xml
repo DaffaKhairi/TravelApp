@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_baggage">Baggage</string>
+    <string name="title_ratings">Ratings</string>
+    <string name="title_profile">User</string>
+    <string name="txt_desc">Our Travel Agents Are Experts at HandCrafting And Coordination Complex itineraries around the world!</string>
+    <string name="txt_title2_screen">Travel App</string>
+    <string name="txt_title1_screen">Enjoy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_test">Bali adalah sebuah provinsi di Indonesia yang ibu kotanya bernama Denpasar. Bali juga merupakan salah satu pulau di Kepulauan Nusa Tenggara</string>
+
+
+</resources>

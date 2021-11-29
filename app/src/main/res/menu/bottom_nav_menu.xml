@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_navbar"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/baggage_navbar"
+        android:icon="@drawable/ic_baggage"
+        android:title="@string/title_baggage" />
+
+    <item
+        android:id="@+id/ratings_navbar"
+        android:icon="@drawable/ic__ratings"
+        android:title="@string/title_ratings" />
+
+    <item
+        android:id="@+id/profile_navbar"
+        android:icon="@drawable/ic_user"
+        android:title="@string/title_profile" />
+</menu>
