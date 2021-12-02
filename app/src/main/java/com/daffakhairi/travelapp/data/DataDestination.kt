@@ -28,6 +28,7 @@ object DataDestination {
         "https://s3-ap-southeast-1.amazonaws.com/cntres-assets-ap-southeast-1-250226768838-cf675839782fd369/imageResource/2017/11/24/1511500185285-3be2f542a9247860c6f34d724ea616ec.jpeg",
         "https://ikbis.ac.id/wp-content/uploads/2021/03/Anda-di-Surabaya-Inilah-Pentingnya-Menggunakan-Konsultan-Pajak-Surabaya-1024x681.jpg"
 
+
     )
 
 }
