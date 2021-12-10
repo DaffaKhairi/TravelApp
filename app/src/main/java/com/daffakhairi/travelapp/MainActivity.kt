@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.daffakhairi.travelapp.data.Destinations
 import com.daffakhairi.travelapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

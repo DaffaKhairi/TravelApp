@@ -5,6 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.daffakhairi.travelapp.adapter.DestinationAdapter
+import com.daffakhairi.travelapp.data.DataDestination
 import com.daffakhairi.travelapp.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -18,10 +22,19 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.rvHomeDetail.apply {
+            setHasFixedSize(true)
+            layoutManager = LinearLayoutManager(view.context)
+            adapter = DestinationAdapter(DataDestination.listDestination)
+        }
     }
 
     override fun onDestroyView() {
